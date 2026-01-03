@@ -1,5 +1,5 @@
 #1
-var='hello'
+var='om'
 print(var)
 num=1
 print(num)
