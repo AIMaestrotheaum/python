@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Full Stack Developer</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons (Optional - for social media icons) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section bg-dark text-white text-center py-5">
+        <div class="container">
+            <img
+                src="https://via.placeholder.com/180"
+                alt="Profile Photo"
+                class="rounded-circle mb-4 border border-4 border-light profile-img"
+            >
+            <h1 class="display-4 fw-bold">Your Name</h1>
+            <p class="lead">Full Stack Developer | Deep Learning Enthusiast</p>
+            <div class="mt-4">
+                <a href="#contact" class="btn btn-primary btn-lg me-2">Contact Me</a>
+                <a href="#education" class="btn btn-outline-light btn-lg">View Resume</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mb-4">About Me</h2>
+                    <hr class="w-25 mx-auto mb-4">
+                    <p class="text-muted fs-5">
+                        Hello! I am a passionate student currently learning Full Stack Development
+                        and Deep Learning. I love building web applications and exploring the
+                        fascinating world of artificial intelligence. My goal is to create
+                        innovative solutions that make a positive impact.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Educational Details</h2>
+            <hr class="w-25 mx-auto mb-5">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <table class="table table-striped table-hover shadow-sm">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">Level</th>
+                                <th scope="col">Institution</th>
+                                <th scope="col">Year</th>
+                                <th scope="col">Percentage/CGPA</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>10th Standard</strong></td>
+                                <td>ABC High School, City</td>
+                                <td>2018</td>
+                                <td><span class="badge bg-success">85%</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>12th Standard</strong></td>
+                                <td>XYZ Senior Secondary School, City</td>
+                                <td>2020</td>
+                                <td><span class="badge bg-success">78%</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Bachelor's Degree</strong></td>
+                                <td>University of Technology, City</td>
+                                <td>2024</td>
+                                <td><span class="badge bg-primary">8.5 CGPA</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Technical Skills</h2>
+            <hr class="w-25 mx-auto mb-5">
+
+            <div class="row g-4 justify-content-center">
+                <!-- Skill Card 1 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card h-100 text-center shadow-sm skill-card">
+                        <div class="card-body">
+                            <i class="bi bi-code-slash fs-1 text-primary mb-3"></i>
+                            <h5 class="card-title">HTML & CSS</h5>
+                            <p class="card-text text-muted">Building responsive web layouts</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill Card 2 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card h-100 text-center shadow-sm skill-card">
+                        <div class="card-body">
+                            <i class="bi bi-filetype-py fs-1 text-success mb-3"></i>
+                            <h5 class="card-title">Python</h5>
+                            <p class="card-text text-muted">Programming & automation</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill Card 3 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card h-100 text-center shadow-sm skill-card">
+                        <div class="card-body">
+                            <i class="bi bi-cpu fs-1 text-info mb-3"></i>
+                            <h5 class="card-title">Deep Learning</h5>
+                            <p class="card-text text-muted">Neural networks & AI models</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill Card 4 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card h-100 text-center shadow-sm skill-card">
+                        <div class="card-body">
+                            <i class="bi bi-git fs-1 text-danger mb-3"></i>
+                            <h5 class="card-title">Git & GitHub</h5>
+                            <p class="card-text text-muted">Version control & collaboration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Get In Touch</h2>
+            <hr class="w-25 mx-auto mb-5">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <p class="text-muted mb-4">
+                        Feel free to reach out to me for collaborations or just a friendly chat!
+                    </p>
+
+                    <!-- Social Links -->
+                    <div class="social-links mb-4">
+                        <a href="https://github.com/yourusername" class="btn btn-dark btn-lg m-2" target="_blank">
+                            <i class="bi bi-github"></i> GitHub
+                        </a>
+                        <a href="https://linkedin.com/in/yourusername" class="btn btn-primary btn-lg m-2" target="_blank">
+                            <i class="bi bi-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="mailto:your.email@example.com" class="btn btn-danger btn-lg m-2">
+                            <i class="bi bi-envelope"></i> Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Your Name. All rights reserved.</p>
+            <small class="text-muted">Built with Bootstrap 5 | Deep Learning Internship Project</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
