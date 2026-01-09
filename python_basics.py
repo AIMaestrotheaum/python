@@ -228,7 +228,7 @@ class Student:                                         # defining a class
     def display_info(self):                                # method to display student info
         return f"Name: {self.name}, Age: {self.age}"
     
-student1 = Student("Yogesh", 20)                       # creating an object
+student1 = Student("Om Birari", 20)                       # creating an object
 print(student1.display_info())                         # calling a method
 
 
